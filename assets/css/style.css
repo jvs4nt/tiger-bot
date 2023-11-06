@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 375px;
+    gap: 20px;
+    padding: 10px;
+}
+
+span {
+    color: #eebf00;
+}
+
+img {
+    width: 200px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.depoimentos {
+    margin-top: 50px;       
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.video {
+    width: 360px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.garantia {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.garantia p {
+    font-size: 20px;
+}
+
+.selo {
+    width: 100px;
+}
