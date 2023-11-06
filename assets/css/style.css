@@ -38,6 +38,10 @@ img {
     gap: 20px;
 }
 
+.titulo p {
+    font-size: 30px;
+}
+
 .sobre {
     margin-top: 50px;
     display: flex;
@@ -52,6 +56,10 @@ img {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+
+.depoimentos img {
+    width: 300px;
 }
 
 .video {
@@ -75,4 +83,8 @@ img {
 
 .selo {
     width: 100px;
+}
+
+.btn {
+    border: 2px solid white;
 }
